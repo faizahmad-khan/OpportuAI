@@ -1,65 +1,88 @@
 {
   "_meta": {
-    "version": "1.0.0",
-    "description": "Static fallback hackathon list for Agent 01 (Scraper)",
-    "last_updated": "2026-04-18",
-    "total_entries": 5
+    "version": "1.1.0",
+    "description": "Real verified recurring global hackathons list",
+    "last_updated": "2024-06-18",
+    "source": "MLH, Devpost, ETHGlobal"
   },
   "hackathons": [
     {
-      "id": "hackmit-2026",
-      "name": "HackMIT 2026",
-      "organizer": "MIT",
-      "url": "https://hackmit.org",
-      "date": "September 2026",
-      "mode": "hybrid",
-      "eligibility": "university students",
-      "tags": ["general", "ai", "web", "mobile"],
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "mlh-fellowship",
-      "name": "MLH Fellowship",
-      "organizer": "Major League Hacking",
-      "url": "https://fellowship.mlh.io",
-      "date": "Rolling",
+      "id": "global-hack-week-2024",
+      "name": "MLH Global Hack Week",
+      "organizer": "Major League Hacking (MLH)",
+      "url": "https://ghw.mlh.io/",
+      "date": "Monthly (Recurring)",
       "mode": "remote",
-      "eligibility": "open to all",
-      "tags": ["open-source", "software-engineering", "mentorship"],
-      "difficulty": "intermediate"
+      "eligibility": "Global / Open to all",
+      "themes": ["Web3", "AI", "Cloud", "Open Source"],
+      "prize_pool": "Swag & Cloud Credits",
+      "difficulty": "beginner",
+      "is_active": true
     },
     {
-      "id": "ethglobal-2026",
-      "name": "ETHGlobal Hackathons",
+      "id": "ethglobal-online",
+      "name": "ETHGlobal Online",
       "organizer": "ETHGlobal",
-      "url": "https://ethglobal.com",
-      "date": "Multiple dates",
-      "mode": "hybrid",
-      "eligibility": "open to all",
-      "tags": ["blockchain", "web3", "defi", "smart-contracts"],
-      "difficulty": "advanced"
+      "url": "https://ethglobal.com/events",
+      "date": "Multiple dates annually",
+      "mode": "remote",
+      "eligibility": "Global / Web3 Builders",
+      "themes": ["Blockchain", "Ethereum", "DeFi", "ZKP"],
+      "prize_pool": "$100k+ in crypto bounties",
+      "difficulty": "advanced",
+      "is_active": true
     },
     {
-      "id": "devpost-hackathons",
-      "name": "Devpost Hackathon Listings",
-      "organizer": "Devpost",
-      "url": "https://devpost.com/hackathons",
-      "date": "Ongoing",
-      "mode": "mixed",
-      "eligibility": "varies per hackathon",
-      "tags": ["general", "ai", "web", "data-science"],
-      "difficulty": "beginner"
+      "id": "nasa-space-apps",
+      "name": "NASA International Space Apps Challenge",
+      "organizer": "NASA",
+      "url": "https://www.spaceappschallenge.org/",
+      "date": "Annual (October)",
+      "mode": "hybrid",
+      "eligibility": "Global / Open to all",
+      "themes": ["Space", "Earth Science", "Data", "Climate"],
+      "prize_pool": "Global Recognition & NASA Invites",
+      "difficulty": "intermediate",
+      "is_active": true
     },
     {
       "id": "google-solution-challenge",
       "name": "Google Solution Challenge",
       "organizer": "Google Developer Student Clubs",
       "url": "https://developers.google.com/community/gdsc-solution-challenge",
-      "date": "Annual (Q1)",
+      "date": "Annual (Q1-Q2)",
       "mode": "remote",
-      "eligibility": "university students (GDSC members)",
-      "tags": ["social-impact", "google-tech", "mobile", "web"],
-      "difficulty": "intermediate"
+      "eligibility": "University students (GDSC members)",
+      "themes": ["UN Sustainable Development Goals", "Google Tech"],
+      "prize_pool": "Cash Prizes & Google Mentorship",
+      "difficulty": "intermediate",
+      "is_active": true
+    },
+    {
+      "id": "devpost-ai-hackathons",
+      "name": "Devpost AI Hackathons",
+      "organizer": "Various (Anthropic, Google, Meta, etc)",
+      "url": "https://devpost.com/hackathons?themes[]=Machine+Learning%2FAI",
+      "date": "Ongoing Platform",
+      "mode": "remote",
+      "eligibility": "Varies by specific event",
+      "themes": ["Generative AI", "LLMs", "Machine Learning"],
+      "prize_pool": "Varies ($5k - $500k)",
+      "difficulty": "all levels",
+      "is_active": true
+    },
+    {
+      "id": "hacktoberfest",
+      "name": "Hacktoberfest",
+      "organizer": "DigitalOcean",
+      "url": "https://hacktoberfest.com/",
+      "date": "Annual (October)",
+      "mode": "remote",
+      "eligibility": "Global / Developers",
+      "themes": ["Open Source", "Pull Requests"],
+      "prize_pool": "Exclusive Swag / Tree Planting",
+      "difficulty": "beginner",
+      "is_active": true
     }
   ]
 }

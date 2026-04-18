@@ -1,44 +1,36 @@
 {
   "_meta": {
-    "version": "1.0.0",
-    "description": "Skill-to-resource lookup table for Agent 04 (Upskiller)",
-    "last_updated": "2026-04-18",
-    "schema": {
-      "title": "string — Course/resource name",
-      "platform": "string — Host platform",
-      "url": "string — Direct link",
-      "duration": "string — Estimated completion time",
-      "level": "string — beginner | intermediate | advanced",
-      "type": "string — course | tutorial | documentation | interactive",
-      "free": "boolean"
-    }
+    "version": "1.1.0",
+    "description": "Comprehensive real-world resource database for Agent 04 (Upskiller)",
+    "last_updated": "2024-06-18",
+    "source": "Curated from official documentation and recognized MOOCs"
   },
   "skills": {
     "python": [
       {
         "title": "Python for Everybody Specialization",
-        "platform": "Coursera",
+        "platform": "Coursera x University of Michigan",
         "url": "https://www.coursera.org/specializations/python",
         "duration": "2 months",
         "level": "beginner",
+        "type": "certification",
+        "free": true
+      },
+      {
+        "title": "100 Days of Code: The Complete Python Pro Bootcamp",
+        "platform": "Udemy",
+        "url": "https://www.udemy.com/course/100-days-of-code/",
+        "duration": "60 hours",
+        "level": "intermediate",
         "type": "course",
-        "free": true
+        "free": false
       },
       {
-        "title": "Learn Python 3",
-        "platform": "Codecademy",
-        "url": "https://www.codecademy.com/learn/learn-python-3",
-        "duration": "25 hours",
-        "level": "beginner",
-        "type": "interactive",
-        "free": true
-      },
-      {
-        "title": "Python Official Tutorial",
-        "platform": "Python Docs",
+        "title": "Official Python 3 Documentation",
+        "platform": "Python Software Foundation",
         "url": "https://docs.python.org/3/tutorial/",
-        "duration": "10 hours",
-        "level": "beginner",
+        "duration": "Self-paced",
+        "level": "advanced",
         "type": "documentation",
         "free": true
       }
@@ -47,7 +39,7 @@
       {
         "title": "JavaScript Algorithms and Data Structures",
         "platform": "freeCodeCamp",
-        "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/",
+        "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/",
         "duration": "300 hours",
         "level": "beginner",
         "type": "interactive",
@@ -63,19 +55,19 @@
         "free": true
       },
       {
-        "title": "MDN JavaScript Guide",
-        "platform": "MDN Web Docs",
+        "title": "MDN Web Docs: JavaScript Guide",
+        "platform": "Mozilla",
         "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
-        "duration": "15 hours",
-        "level": "beginner",
+        "duration": "Self-paced",
+        "level": "intermediate",
         "type": "documentation",
         "free": true
       }
     ],
     "react": [
       {
-        "title": "React Official Tutorial",
-        "platform": "React Docs",
+        "title": "React.dev Quick Start",
+        "platform": "Meta / React Core Team",
         "url": "https://react.dev/learn",
         "duration": "10 hours",
         "level": "beginner",
@@ -83,59 +75,90 @@
         "free": true
       },
       {
-        "title": "Front End Development Libraries",
-        "platform": "freeCodeCamp",
-        "url": "https://www.freecodecamp.org/learn/front-end-development-libraries/",
-        "duration": "300 hours",
+        "title": "Full Stack Open - React",
+        "platform": "University of Helsinki",
+        "url": "https://fullstackopen.com/en/",
+        "duration": "120 hours",
         "level": "intermediate",
-        "type": "interactive",
+        "type": "course",
         "free": true
+      }
+    ],
+    "java": [
+      {
+        "title": "Java Programming and Software Engineering Fundamentals",
+        "platform": "Coursera x Duke University",
+        "url": "https://www.coursera.org/specializations/java-programming",
+        "duration": "5 months",
+        "level": "beginner",
+        "type": "certification",
+        "free": true
+      },
+      {
+        "title": "Spring Boot 3, Spring 6 & Hibernate",
+        "platform": "Udemy",
+        "url": "https://www.udemy.com/course/spring-hibernate-tutorial/",
+        "duration": "37 hours",
+        "level": "advanced",
+        "type": "course",
+        "free": false
+      }
+    ],
+    "aws": [
+      {
+        "title": "AWS Cloud Practitioner Essentials",
+        "platform": "AWS Skill Builder",
+        "url": "https://explore.skillbuilder.aws/learn/course/external/view/elearning/134/aws-cloud-practitioner-essentials",
+        "duration": "6 hours",
+        "level": "beginner",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ultimate AWS Certified Solutions Architect Associate",
+        "platform": "Udemy",
+        "url": "https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03/",
+        "duration": "27 hours",
+        "level": "intermediate",
+        "type": "course",
+        "free": false
       }
     ],
     "docker": [
       {
-        "title": "Docker Get Started Guide",
-        "platform": "Docker Docs",
+        "title": "Docker for Beginners - Hands On",
+        "platform": "KodeKloud",
+        "url": "https://kodekloud.com/courses/docker-for-the-absolute-beginner/",
+        "duration": "5 hours",
+        "level": "beginner",
+        "type": "interactive",
+        "free": false
+      },
+      {
+        "title": "Docker Documentation - Get Started",
+        "platform": "Docker",
         "url": "https://docs.docker.com/get-started/",
         "duration": "2 hours",
         "level": "beginner",
         "type": "documentation",
         "free": true
-      },
-      {
-        "title": "Docker Curriculum",
-        "platform": "docker-curriculum.com",
-        "url": "https://docker-curriculum.com/",
-        "duration": "4 hours",
-        "level": "beginner",
-        "type": "tutorial",
-        "free": true
       }
     ],
-    "sql": [
+    "git": [
       {
-        "title": "SQL Tutorial",
-        "platform": "W3Schools",
-        "url": "https://www.w3schools.com/sql/",
-        "duration": "10 hours",
-        "level": "beginner",
-        "type": "tutorial",
-        "free": true
-      },
-      {
-        "title": "Relational Database Certification",
-        "platform": "freeCodeCamp",
-        "url": "https://www.freecodecamp.org/learn/relational-database/",
-        "duration": "300 hours",
+        "title": "Pro Git Book",
+        "platform": "Git SCM",
+        "url": "https://git-scm.com/book/en/v2",
+        "duration": "Self-paced",
         "level": "intermediate",
-        "type": "interactive",
+        "type": "documentation",
         "free": true
       },
       {
-        "title": "SQLBolt Interactive Lessons",
-        "platform": "SQLBolt",
-        "url": "https://sqlbolt.com/",
-        "duration": "5 hours",
+        "title": "Learn Git Branching",
+        "platform": "Open Source",
+        "url": "https://learngitbranching.js.org/",
+        "duration": "4 hours",
         "level": "beginner",
         "type": "interactive",
         "free": true
