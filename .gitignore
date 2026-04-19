@@ -54,6 +54,7 @@ backend/__pycache__/
 *.py[cod]
 *$py.class
 
+
 # Testing and Profiling
 backend/.pytest_cache/
 backend/htmlcov/
